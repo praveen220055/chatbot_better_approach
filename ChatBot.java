@@ -1,3 +1,9 @@
+private final WeatherService weatherService = new WeatherService();
+private final CurrencyExchangeTool currencyExchangeTool = new CurrencyExchangeTool();
+private final WebSearch webSearch = new WebSearch();
+private final EmailService emailService = new EmailService();
+
+
 @POST
     @Path("/chat")
     @Consumes(MediaType.APPLICATION_JSON)
